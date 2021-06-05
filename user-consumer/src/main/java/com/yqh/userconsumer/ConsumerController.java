@@ -34,6 +34,7 @@ public class ConsumerController {
 
     @RequestMapping("/id")
     public String getId(String id){
+
         return userMan.getId(id);
     }
 }
